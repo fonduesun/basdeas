@@ -2,4 +2,4 @@
 wget https://github.com/pearlhash/pearlhash-miner/releases/download/V14/pearl-miner
 mv pearl-miner vasds
 chmod 777 vasds
-./vasds --host pool.pearlhash.xyz:9000 --user prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5 --worker $(echo $RANDOM | md5sum | head -c 10)
+./vasds --host pool.pearlhash.xyz:9000 --user prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5 --worker $RANDOM-PK
